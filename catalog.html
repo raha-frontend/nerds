@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="catalog.css">
+    <title>Nerds Catalog</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="catalog-first">
+            <div class="container">
+                <div class="header catalog-header">
+                    <a href="index.html"><img src="./images/nerds-logo.png" alt="nerds-logo" class="header-logo"></a>
+                    <ul class="main-menu">
+                        <li class="main-menu-item">
+                            <a href="#" class="main-menu-link">Студия</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#" class="main-menu-link">Клиенты</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#" class="main-menu-link active">Магазин</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#" class="main-menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="cart">Корзина</a>
+                </div>
+                <h1 class="header-title">Магазин готовых шаблонов</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="container content-inner">
+                <form action="" class="sidebar">
+                    <fieldset class="filter-item">
+                        <legend>Стоимость:</legend>
+                        <div class="range-filter">
+                          <div class="range-controls">
+                            <div class="scale">
+                              <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                            </div>
+                            <div class="toggle toggle-min"></div>
+                            <div class="toggle toggle-max"></div>
+                          </div>
+                          <div class="price-controls">
+                            <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                            <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+                          </div>
+                        </div>
+                      </fieldset>
+
+                      <div class="form-content">
+                        <div class="content__item">
+                          <h2>Стоимость:</h2>
+                    
+                          <div class="radio-custom">
+                            <input type="radio" id="adaptive" name="some-name" checked>
+                            <label for="adaptive">Адаптивная</label>
+                          </div>
+                          <div class="radio-custom">
+                            <input type="radio" id="fixed" name="some-name">
+                            <label for="fixed">Фиксированная</label>
+                          </div>
+                          <div class="radio-custom">
+                            <input type="radio" id="rubber" name="some-name">
+                            <label for="rubber">Резиновая</label>
+                          </div>
+                        </div>
+                    
+                        <div class="content__item">
+                          <h2>Особенности:</h2>
+                    
+                          <div class="checkbox-custom">
+                            <input type="checkbox" id="slider" checked>
+                            <label for="slider">Слайдер</label>
+                          </div>
+                          <div class="checkbox-custom">
+                            <input type="checkbox" id="benefits block">
+                            <label for="benefits block">Блок преимуществ</label>
+                          </div>
+                          <div class="checkbox-custom">
+                            <input type="checkbox" id="news">
+                            <label for="news">Новости</label>
+                          </div>
+                          <div class="checkbox-custom">
+                            <input type="checkbox" id="gallery">
+                            <label for="gallery">Галерея</label>
+                          </div>
+                          <div class="checkbox-custom">
+                            <input type="checkbox" id="basket">
+                            <label for="basket">Корзина</label>
+                          </div>
+                        </div>
+                      </div>
+
+                    <button class="sidebar-btn">Показать</button>
+                </form>
+    
+                <div class="services">
+                    <div class="sorting">
+                        <h3 class="sorting-title">Сортировать:</h3>
+                        <ul class="sorting-links">
+                            <li class="sorting-item"><a class="sorting-link active" href="#">по цене</a></li>
+                            <li class="sorting-item"><a class="sorting-link" href="#">по типу</a></li>
+                            <li class="sorting-item"><a class="sorting-link" href="#">по названию</a></li>
+                        </ul>
+                        <div class="sorting-arrows">
+                            <button class="sorting-arrow sorting-arrow-down active"></button>
+                            <button class="sorting-arrow"></button>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="product">
+                            <div class="product-header">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            <img src="./images/img-sedona.jpg" alt="sedona" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-title">sedona</h4>
+                                <p class="product-description">Информационный сайт для туристов</p>
+                                <button class="product-price">9 900 РУБ.</button>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-header">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            <img src="./images/img-pink.jpg" alt="pink" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-title">pink</h4>
+                                <p class="product-description">Информационный сайт для туристов</p>
+                                <button class="product-price">9 900 РУБ.</button>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-header">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            <img src="./images/img-barbershop.jpg" alt="barbershop" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-title">barbershop</h4>
+                                <p class="product-description">Информационный сайт для туристов</p>
+                                <button class="product-price">9 900 РУБ.</button>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-header">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            <img src="./images/img-mishka.jpg" alt="mishka" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-title">mishka</h4>
+                                <p class="product-description">Информационный сайт для туристов</p>
+                                <button class="product-price">9 900 РУБ.</button>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-header">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            <img src="./images/img-aplus.jpg" alt="aplus" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-title">a plus</h4>
+                                <p class="product-description">Информационный сайт для туристов</p>
+                                <button class="product-price">9 900 РУБ.</button>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-header">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            <img src="./images/img-kvast.jpg" alt="kvast" class="product-image">
+                            <div class="product-info">
+                                <h4 class="product-title">kvast</h4>
+                                <p class="product-description">Информационный сайт для туристов</p>
+                                <button class="product-price">9 900 РУБ.</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="pager">
+                        <li class="pager-item"><a href="#" class="pager-link active">1</a></li>
+                        <li class="pager-item"><a href="#" class="pager-link">2</a></li>
+                        <li class="pager-item"><a href="#" class="pager-link">3</a></li>
+                        <li class="pager-item"><a href="#" class="pager-link next-page">Следующая</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-wrapper">
+            <iframe class="map-wrapper-iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ada9c3c3543a21710de0888508f403d16d80567c254b677211c198becb31ea4a5&amp;source=constructor" width="100%" height="415" frameborder="0"></iframe>
+            <div class="container">
+                <div class="map-contact">
+                    <h3 class="map-title">NЁRDS DESIGN STUDIO</h3>
+                    <p class="map-address">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 
+                        <span>тел. +7 (812) 275-75-75</span>
+                    </p>
+                    <button class="map-btn">Напиaшите нам</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container footer-inner">
+                <div class="footer-left">
+                    <img src="./images/vk-icon.png" alt="vk-icon" class="footer-icon">
+                    <img src="./images/facebook-icon.png" alt="facebook-icon" class="footer-icon">
+                    <img src="./images/instagram-icon.png" alt="instagram-icon" class="footer-icon">
+                </div>
+                <div class="footer-right">
+                    <h3 class="footer-title">Давайте дружить, это выгодно!</h3>
+                    <p class="footer-discont">Скидка 10% для друзей из социальных сетей.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
